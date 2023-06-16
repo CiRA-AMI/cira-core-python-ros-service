@@ -7,7 +7,7 @@ sudo apt remove ros-*-ros-numpy
 
 - Install python module : 
 ```bash
-pip install numpy opencv-python  catkin_pkg rospkg
+pip install numpy opencv-python catkin_pkg rospkg
 ```
 
 - Install cira ros-numpy : 
