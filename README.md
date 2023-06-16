@@ -10,7 +10,7 @@ sudo apt remove ros-*-ros-numpy
 pip install numpy opencv-python catkin_pkg rospkg
 ```
 
-- Install cira ros-numpy : 
+- Install CiRA ros-numpy : 
 ```bash
 pip install https://github.com/CiRA-AMI/cira_ros_numpy/archive/refs/heads/master.zip 
 ```
