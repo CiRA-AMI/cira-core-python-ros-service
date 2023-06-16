@@ -49,4 +49,6 @@ def handle_service(req):
 p = rospy.Publisher(f'/{service_name}/cira_service', String, queue_size=10)
 s = rospy.Service(f'/{service_name}/cira_service', CiraFlowService2, handle_service)
 
+print("cira_rosservice ", service_name, " started")
+
 rospy.spin()
