@@ -1,6 +1,6 @@
 # cira-core-python-ros-service
 
-- In Ubuntu remove 
+- In Ubuntu remove defalut ros-numpy
 ```bash
 sudo apt remove ros-*-ros-numpy
 ```
