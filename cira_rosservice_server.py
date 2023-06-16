@@ -6,6 +6,7 @@ print("home_path : ", home_path)
 
 if os.name == 'nt':
 	sys.path.append('C:\\CiRA-CORE\\install\\lib\\site-packages')
+	sys.path.append('C:\\opt\\ros\\melodic\\x64\\lib\\site-packages')
 else :
 	sys.path.append(home_path + '/.cira_core_install/cira_libs_ws/install/lib/python3/dist-packages')
 
